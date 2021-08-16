@@ -1,5 +1,4 @@
-#
-# Cookbook:: hellochef
-# Recipe:: hellochef-recipe
-#
-# Copyright:: 2021, The Authors, All Rights Reserved.
+file "/myfile" do
+content "Hello Chef"
+action :create
+end
