@@ -14,9 +14,9 @@ Chef works on a three-tier client server model
 3. Chef Nodes (contain ohai)
    
 ## Cookbooks
-    - It is a directory where all cookbook are stored.
-    - Directory name should be ***cookbooks***
-    - To create cookbook inside cookbooks don't create directly, use chef command to generate cookbook.
+- It is a directory where all cookbook are stored.
+- Directory name should be ***cookbooks***
+- To create cookbook inside cookbooks don't create directly, use chef command to generate cookbook.
   
 ## Command for generating cookbook
 ```bash
@@ -24,16 +24,15 @@ chef generate cookbook <cookbookname>
 ```
    
 ## Recipe
-Recipe is the file where all ruby code is written.
-*** Never create file manual or with touch or any other command. Use chef command to create recipe file.
+Recipe is the file where all ruby code is written.Never create file manual or with touch or any other command. Use chef command to create recipe file.
 
-** create recipe being in cookbook directory **
+**create recipe being in cookbook directory**
 
 ```bash
 chef generate recipe <recipename>
 ```
 
-### ** we cann't wright code directly in recipe file. we have to right code being in cookbooks directory.** 
+### **we cann't wright code directly in recipe file. we have to right code being in cookbooks directory.** 
 > Ex- vi democookbook/recipes/demorecipe.rb
 
 ### Command for syntax check
@@ -42,7 +41,7 @@ chef generate recipe <recipename>
 ```
 ### convergence command 
 ```bash
-    chef-client -zr "recipe[<cookbookname>::<recipename>]"
+    chef-client -zr "recipe[<cookbookname>::<recipename>"
 ```
 
 
