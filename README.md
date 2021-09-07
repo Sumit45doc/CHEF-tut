@@ -49,7 +49,7 @@ chef generate recipe <recipename>
 
 ## Runlist
 > TO run the recipes in a sequence order that use  mention in a run list.
-> With this process , we can run multiple recipes, but the condition is there must be only one Recipe from one cookbook.
+> With this process , we can run multiple recipes, but the condition is *** there must be only one Recipe from one cookbook ***.
 ###  runlist command
 ```bash
     chef-client -zr "recipe[<cookbook1>::<recipename>],recipe[<cookbook2>::<recipename>]"
