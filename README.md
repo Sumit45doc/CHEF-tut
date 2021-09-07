@@ -54,4 +54,7 @@ chef generate recipe <recipename>
 ```bash
     chef-client -zr "recipe[<cookbook1>::<recipename>],recipe[<cookbook2>::<recipename>]"
 ```
-
+To run multiply recipe of same cookbook:
+    - we need to import all the necessary recipes inside default.rb recipe.
+    - imported recipes should be of same cookbook.
+*** include_recipe "<cookbookname>::<recipename>" ***
