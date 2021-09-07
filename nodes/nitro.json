@@ -23,7 +23,7 @@
       },
       "waiver_file": null,
       "json_file": {
-        "location": "/var/chef/compliance_reports/compliance-20210907085422.json"
+        "location": "/var/chef/compliance_reports/compliance-20210907091017.json"
       },
       "run_time_limit": 1.0,
       "result_message_limit": 10000,
@@ -569,31 +569,31 @@
         "surplus": "0"
       },
       "directmap": {
-        "4k": "472084kB",
-        "2M": "5756928kB",
+        "4k": "476180kB",
+        "2M": "5752832kB",
         "1G": "0kB"
       },
       "total": "6088304kB",
-      "free": "775352kB",
-      "available": "3242420kB",
-      "buffers": "383784kB",
-      "cached": "2187716kB",
-      "active": "3183504kB",
-      "inactive": "1416280kB",
-      "dirty": "24kB",
+      "free": "694920kB",
+      "available": "3259556kB",
+      "buffers": "387380kB",
+      "cached": "2283940kB",
+      "active": "3222368kB",
+      "inactive": "1467628kB",
+      "dirty": "128kB",
       "writeback": "0kB",
-      "anon_pages": "2027980kB",
-      "mapped": "639744kB",
-      "slab": "427792kB",
-      "slab_reclaimable": "271056kB",
-      "slab_unreclaim": "156736kB",
-      "page_tables": "53992kB",
+      "anon_pages": "2019084kB",
+      "mapped": "647572kB",
+      "slab": "431376kB",
+      "slab_reclaimable": "273896kB",
+      "slab_unreclaim": "157480kB",
+      "page_tables": "53444kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "13044532kB",
-      "committed_as": "8991240kB",
+      "committed_as": "8936080kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "42400kB",
+      "vmalloc_used": "42368kB",
       "vmalloc_chunk": "0kB",
       "hugepage_size": "2048kB",
       "hugetlb": "0kB"
@@ -863,16 +863,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "1443447",
-              "packets": "3798",
+              "bytes": "1488225",
+              "packets": "4114",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "1443447",
-              "packets": "3798",
+              "bytes": "1488225",
+              "packets": "4114",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -899,16 +899,16 @@
           "wlp3s0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "4115623",
-              "packets": "23322",
+              "bytes": "5022672",
+              "packets": "28672",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "124968095",
-              "packets": "98928",
+              "bytes": "206369013",
+              "packets": "158700",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1021,10 +1021,10 @@
     "platform": "ubuntu",
     "platform_version": "18.04",
     "platform_family": "debian",
-    "uptime_seconds": 3741,
-    "uptime": "1 hours 02 minutes 21 seconds",
-    "idletime_seconds": 28099,
-    "idletime": "7 hours 48 minutes 19 seconds",
+    "uptime_seconds": 4696,
+    "uptime": "1 hours 18 minutes 16 seconds",
+    "idletime_seconds": 35324,
+    "idletime": "9 hours 48 minutes 44 seconds",
     "dmi": {
       "dmidecode_version": "3.1",
       "table_location": "0x8E604000",
@@ -1254,7 +1254,7 @@
       "model": "24",
       "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
       "stepping": "1",
-      "mhz": "1215.127",
+      "mhz": "1321.189",
       "mhz_max": "2100.0000",
       "mhz_min": "1400.0000",
       "bogomips": "4192.19",
@@ -1383,7 +1383,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -1510,7 +1510,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -1637,7 +1637,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -1764,7 +1764,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -1891,7 +1891,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -2018,7 +2018,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -2145,7 +2145,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -2272,7 +2272,7 @@
         "model": "24",
         "model_name": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx",
         "stepping": "1",
-        "mhz": "1215.127",
+        "mhz": "1321.189",
         "bogomips": "4192.19",
         "cache_size": "512 KB",
         "physical_id": "0",
@@ -2594,12 +2594,12 @@
         },
         "/dev/sda7": {
           "kb_size": "196105820",
-          "kb_used": "42294288",
-          "kb_available": "143780172",
+          "kb_used": "42299368",
+          "kb_available": "143775092",
           "percent_used": "23%",
           "total_inodes": "12525568",
-          "inodes_used": "595880",
-          "inodes_available": "11929688",
+          "inodes_used": "595970",
+          "inodes_available": "11929598",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3613,12 +3613,12 @@
         },
         "/": {
           "kb_size": "196105820",
-          "kb_used": "42294288",
-          "kb_available": "143780172",
+          "kb_used": "42299368",
+          "kb_available": "143775092",
           "percent_used": "23%",
           "total_inodes": "12525568",
-          "inodes_used": "595880",
-          "inodes_available": "11929688",
+          "inodes_used": "595970",
+          "inodes_available": "11929598",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3633,12 +3633,12 @@
         },
         "/dev/shm": {
           "kb_size": "3044152",
-          "kb_used": "29304",
-          "kb_available": "3014848",
+          "kb_used": "28488",
+          "kb_available": "3015664",
           "percent_used": "1%",
           "total_inodes": "761038",
-          "inodes_used": "77",
-          "inodes_available": "760961",
+          "inodes_used": "70",
+          "inodes_available": "760968",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4242,12 +4242,12 @@
         },
         "/run/user/1000": {
           "kb_size": "608828",
-          "kb_used": "72",
-          "kb_available": "608756",
+          "kb_used": "76",
+          "kb_available": "608752",
           "percent_used": "1%",
           "total_inodes": "761038",
-          "inodes_used": "56",
-          "inodes_available": "760982",
+          "inodes_used": "58",
+          "inodes_available": "760980",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4755,13 +4755,13 @@
         "/dev/sda7,/": {
           "device": "/dev/sda7",
           "kb_size": "196105820",
-          "kb_used": "42294288",
-          "kb_available": "143780172",
+          "kb_used": "42299368",
+          "kb_available": "143775092",
           "percent_used": "23%",
           "mount": "/",
           "total_inodes": "12525568",
-          "inodes_used": "595880",
-          "inodes_available": "11929688",
+          "inodes_used": "595970",
+          "inodes_available": "11929598",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -4774,13 +4774,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "3044152",
-          "kb_used": "29304",
-          "kb_available": "3014848",
+          "kb_used": "28488",
+          "kb_available": "3015664",
           "percent_used": "1%",
           "mount": "/dev/shm",
           "total_inodes": "761038",
-          "inodes_used": "77",
-          "inodes_available": "760961",
+          "inodes_used": "70",
+          "inodes_available": "760968",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5179,13 +5179,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "608828",
-          "kb_used": "72",
-          "kb_available": "608756",
+          "kb_used": "76",
+          "kb_available": "608752",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "761038",
-          "inodes_used": "56",
-          "inodes_available": "760982",
+          "inodes_used": "58",
+          "inodes_available": "760980",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -6208,7 +6208,7 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/root/.config"
     },
-    "ohai_time": 1631004865.6686893,
+    "ohai_time": 1631005820.5399346,
     "packages": {
       "aapt": {
         "version": "1:8.1.0+r23-3~18.04",
@@ -14655,7 +14655,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 190742,
+      "_AVPHYS_PAGES": 171149,
       "_NPROCESSORS_CONF": 8,
       "_NPROCESSORS_ONLN": 8,
       "_PHYS_PAGES": 1522076,
@@ -14920,12 +14920,14 @@
     "name": "nitro",
     "chef_environment": "_default",
     "recipes": [
+      "testcb",
+      "testcb::default",
       "testcb::runlist1",
-      "test-attribute::runlist2"
+      "testcb::defineuser",
+      "testcb::test"
     ],
     "expanded_run_list": [
-      "testcb::runlist1",
-      "test-attribute::runlist2"
+      "testcb::default"
     ],
     "roles": [
 
@@ -14933,14 +14935,10 @@
     "cookbooks": {
       "testcb": {
         "version": "0.1.0"
-      },
-      "test-attribute": {
-        "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[testcb::runlist1]",
-    "recipe[test-attribute::runlist2]"
+    "recipe[testcb::default]"
   ]
 }
