@@ -4,9 +4,9 @@
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 user "sukriti" do
-action :create
+action :remove
 end
 
 group "family" do
-action :create
+action :remove
 end
