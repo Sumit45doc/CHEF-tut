@@ -39,10 +39,19 @@ chef generate recipe <recipename>
 ```bash
     chef exec ruby -c <democookbook/recipes/demorecipe.rb>
 ```
+
+## Convergence
+> We run chef-client to apply recipe to bring node into desired state. 
 ### convergence command 
 ```bash
     chef-client -zr "recipe[<cookbookname>::<recipename>"
 ```
 
-
+## Runlist
+> TO run the recipes in a sequence order that use  mention in a run list.
+> With this process , we can run multiple recipes, but the condition is there must be only one Recipe from one cookbook.
+###  runlist command
+```bash
+    chef-client -zr "recipe[<cookbook1>::<recipename>],recipe[<cookbook2>::<recipename>]"
+```
 
