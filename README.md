@@ -64,7 +64,11 @@ Firstly need to make account in [manage chef io](https://manage.chef.io/login)
 Then download chef starter kit and extract directory(chef repo).
 *** Alway work indise chef-repo ***
 
-### To check whether workstation is connect to server 
+### Bootstrap 
+Attaching a node to chef server is called bootstraping 
+
+
+### To check whether workstation is connect to server - knife is use to talk with server and node
 ```bash
     knife ssl check
 ```
