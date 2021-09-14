@@ -64,6 +64,11 @@ Firstly need to make account in [manage chef io](https://manage.chef.io/login)
 Then download chef starter kit and extract directory(chef repo).
 *** Alway work indise chef-repo ***
 
+### To check whether workstation is connect to server 
+```bash
+    knife ssl check
+```
+
 ###  for uploading cookbook in chef server
 ```bash
     knife cookbook upload <cookbookName>
