@@ -57,7 +57,8 @@ chef generate recipe <recipename>
 To run multiply recipe of same cookbook:
     - we need to import all the necessary recipes inside default.rb recipe.
     - imported recipes should be of same cookbook.
-*** include_recipe "<cookbookname>::<recipename>" ***
+
+ include_recipe "<cookbookname>::<recipename>"
 
 ## Chef-server (2-Architecture)
 Firstly need to make account in [manage chef io](https://manage.chef.io/login)
