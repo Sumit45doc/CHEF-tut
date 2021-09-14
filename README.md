@@ -77,3 +77,51 @@ Attaching a node to chef server is called bootstraping
 ```bash
     knife cookbook upload <cookbookName>
 ```
+
+### to check all the cookbook in the server
+```bash
+    knife cookbook list
+```
+
+### connect server to node
+```bash
+    knife bootstrap <PrivateIpaddressOfNode> --ssh-user <user> --sudo -i <nodeKey> -N <NameOfNodeYouWantToCall>
+```
+### To check all the node connectd to server
+```bash
+    knife node list 
+```
+
+### define desire recipe for nodes
+Here ,we set recipe for each node or more node depending upto needs.Only that recipe will be run in set node.If there is any changes/updates in setted recipe then node will take that changes and run recipe.But other than this recipe if any other recipes are updated/changed there will be no action performed by set node.
+```bash
+    knife node run_list set <NameOfNodeWeGaveNAmeToNode>  "recipe[<cookbookName>::<recipeNAme>]"
+```
+
+### To check which node as set which recipe
+```bash
+    knife node show <NameOfNodeWeGaveNAmeToNode>
+```
+
+After completing all the step above ** chef Architecture is partially automated ** to run recipe in node.We need run command 
+```bash 
+chef-client
+```
+in node.
+
+
+#### For automation we need to configure node 
+> Go to node and configure /etc/crontab 
+```console
+    vi /etc/crontab
+```
+After running this CMD new console will open.Just write
+```console
+* * * * * <userName> chef-client
+```
+Here, each star have it's own meaning.Inside crontab there is explaned meaning of each *
+* defines the pulling period of chef-client
+
+Now as we have configured node.Now there is no need to manual run chef-client in node.As we update/change in cookbook recipe node will pull that recipe and run in node.
+
+*** Yet there is no Complete automation ***
