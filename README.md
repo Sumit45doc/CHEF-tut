@@ -63,3 +63,8 @@ To run multiply recipe of same cookbook:
 Firstly need to make account in [manage chef io](https://manage.chef.io/login)
 Then download chef starter kit and extract directory(chef repo).
 *** Alway work indise chef-repo ***
+
+###  for uploading cookbook in chef server
+```bash
+    knife cookbook upload <cookbookName>
+```
