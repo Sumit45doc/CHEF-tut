@@ -126,3 +126,7 @@ Here, each star have it's own meaning.Inside crontab there is explaned meaning o
 Now as we have configured node.Now there is no need to manual run chef-client in node.As we update/change in cookbook recipe node will pull that recipe and run in node.
 
 *** Yet there is no Complete automation ***
+### we need to specify run_list for each recipe to each node that is tidious
+If new recipe is created then again we need to run_list for recipe for each desired node.
+To solve this problem roles comes into the picture.
+Concept is attach role as run_list after any recipe you need to attach just put inside role,That's it.
