@@ -130,3 +130,41 @@ Now as we have configured node.Now there is no need to manual run chef-client in
 If new recipe is created then again we need to run_list for recipe for each desired node.
 To solve this problem roles comes into the picture.
 Concept is attach role as run_list after any recipe you need to attach just put inside role,That's it.
+
+Some important command
+
+To delete cookbook from server
+
+```bash
+knife cookbook delete <cookbookName> -y
+```
+similary to delete node from server
+```bash
+knife node delete <nodeName> -y
+```
+
+similary to delete clients from chef-server
+```bash
+knife client delete <clientName> -y
+```
+
+To see list of roles
+```bash
+knife role list
+```
+To delete roles
+```bash
+knife role delete <roleName>
+```
+***  To upload role on server
+```bash
+knife role from file roles/<filename>.rb
+```
+>Note : Whatever recipe we have included in role file upload that cookbook also in server. 
+
+attaching role run list to node
+```bash
+    knife node run_list set <NameOfNodeWeGaveNAmeToNode>  "recipe[<cookbookName>::<recipeNAme>]"
+```
+Now it is fully automated.
+***END**
