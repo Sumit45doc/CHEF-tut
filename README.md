@@ -164,7 +164,7 @@ knife role from file roles/<filename>.rb
 
 attaching role run list to node
 ```bash
-    knife node run_list set <NameOfNodeWeGaveNAmeToNode>  "recipe[<cookbookName>::<recipeNAme>]"
+    knife node run_list set <NameOfNodeWeGaveNAmeToNode>  "role[filename]"
 ```
 Now it is fully automated.
 ***END**
